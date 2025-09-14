@@ -1,0 +1,7 @@
+# Ignore model artifacts
+*.gguf
+*.safetensors
+
+# Optional: ignore merged models and checkpoints
+tinyllama-merged/
+checkpoint-*/
