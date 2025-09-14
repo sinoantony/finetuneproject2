@@ -1,1 +1,13 @@
 #ollama run tinylama-php-crm
+
+option 2
+--------
+ollama -v
+winget install Ollama.Ollama
+move gguf to C:\Users\sinoa\.ollama\models\tinylama-php-crm.gguf
+FILE "Modelfile"  ( content- C:\Users\sinoa\.ollama\modelfiles\)
+FILE "Modelfile"  ( content- FROM C:\Users\sinoa\.ollama\models\tinylama-php-crm.gguf)
+ollama create tinylama-php-crm -f tinylama-php-crm
+ollama run tinylama-php-crm
+
+
